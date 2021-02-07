@@ -17,6 +17,14 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
+        public void Add(Car car)
+        {
+            if (car.Description.Length>2 && car.DailyPrice>0)
+            {
+                _carDal.Add(car);
+            }
+        }
+
         public List<Car> GetAll()
         {
             return _carDal.GetAll();
@@ -28,5 +36,14 @@ namespace Business.Concrete
             return result;
         }
 
+        public List<Car> GetCarsByBrandId(int brandId)
+        {
+            return _carDal.GetAll().Where(p => p.BrandId == brandId).ToList();
+        }
+
+        public List<Car> GetCarsByColorId(int colorId)
+        {
+            return _carDal.GetAll().Where(p => p.ColorId == colorId).ToList();
+        }
     }
 }
