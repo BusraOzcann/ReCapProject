@@ -12,3 +12,5 @@ D:\Visual Studio C# Uygulamarı\RecapProject\Business\obj\Debug\netstandard2.0\B
 D:\Visual Studio C# Uygulamarı\RecapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 D:\Visual Studio C# Uygulamarı\RecapProject\Business\obj\Debug\netstandard2.0\Business.dll
 D:\Visual Studio C# Uygulamarı\RecapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+D:\Visual Studio C# Uygulamarı\RecapProject\Business\bin\Debug\netstandard2.0\Core.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\Business\bin\Debug\netstandard2.0\Core.pdb

@@ -10,3 +10,5 @@ D:\Visual Studio C# Uygulamarı\RecapProject\DataAccess\obj\Debug\netstandard2.0
 D:\Visual Studio C# Uygulamarı\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 D:\Visual Studio C# Uygulamarı\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 D:\Visual Studio C# Uygulamarı\RecapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+D:\Visual Studio C# Uygulamarı\RecapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
