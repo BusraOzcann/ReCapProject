@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using System.Text;
 using Core.Utilities.Results;
 using Business.Constains;
+using Core.Aspects.Autofac.Validation;
+using Business.ValidationRules.FluentValidation;
 
 namespace Business.Concrete
 {
@@ -19,12 +21,11 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
+
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
-            if (car.Description.Length>2 && car.DailyPrice>0)
-            {
-                _carDal.Add(car);  
-            }
+            _carDal.Add(car);
             return new SuccessResult();
         }
 
@@ -36,13 +37,13 @@ namespace Business.Concrete
 
         public IDataResult<List<Car>> GetAll()
         {
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(),Messages.added);
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.added);
         }
 
         public IDataResult<List<Car>> GetCarsBefore2000()
         {
             return new SuccessDataResult<List<Car>>(_carDal.GetAll().Where(c => c.ModelYear < 2000).ToList());
-           
+
         }
 
         public IDataResult<List<Car>> GetCarsByBrandId(int brandId)

@@ -66,3 +66,8 @@ D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\obj\Debug\netcoreapp3.1\WebA
 D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
 D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
 D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
