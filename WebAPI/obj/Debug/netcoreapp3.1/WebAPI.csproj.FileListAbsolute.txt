@@ -71,3 +71,5 @@ D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\Auto
 D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\WebAPI\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll

@@ -60,3 +60,10 @@ D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1
 D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\Core.dll
 D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\Core.pdb
+D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\Autofac.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\Visual Studio C# Uygulamarı\RecapProject\ConsoleApp1\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll

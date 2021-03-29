@@ -9,6 +9,7 @@ using Core.Utilities.Results;
 using Business.Constains;
 using Core.Aspects.Autofac.Validation;
 using Business.ValidationRules.FluentValidation;
+using Core.Utilities.Business;
 
 namespace Business.Concrete
 {
@@ -25,8 +26,14 @@ namespace Business.Concrete
         [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
+            IResult result = BusinessRules.Run(CheckIfCarIsOld(car.ModelYear));
+            if (result != null)
+            {
+                return result;
+            }
             _carDal.Add(car);
             return new SuccessResult();
+           
         }
 
         public IResult Delete(Car car)
@@ -61,5 +68,16 @@ namespace Business.Concrete
             _carDal.Update(car);
             return new SuccessResult();
         }
+
+
+        private IResult CheckIfCarIsOld(int year)
+        {
+            if (year < 2000)
+            {
+                return new ErrorResult(Messages.CarIsOld);
+            }
+            return new SuccessResult();
+        }
+
     }
 }
